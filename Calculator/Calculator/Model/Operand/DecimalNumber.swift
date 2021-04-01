@@ -1,5 +1,5 @@
 //
-//  Decimal.swift
+//  DecimalNumber.swift
 //  Calculator
 //
 //  Created by 덕복 on 2021/03/30.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Decimal: Operand {
+struct DecimalNumber: Operand {
     typealias ValueType = Double
     
     private(set) var value: ValueType

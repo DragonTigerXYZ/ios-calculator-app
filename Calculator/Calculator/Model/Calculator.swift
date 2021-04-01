@@ -110,72 +110,72 @@ class Calculator<OperandType: Operand, InfixOperatorType: InfixOperator, PrefixO
     }
 }
 
-class DecimalCalculator: Calculator<Decimal, DecimalInfixOperator, DecimalPrefixOperator> {
+class DecimalCalculator: Calculator<DecimalNumber, DecimalInfixOperator, DecimalPrefixOperator> {
     static let shared = DecimalCalculator()
     
-    override func calculate(by prefixOperator: DecimalPrefixOperator, x: Decimal) -> Decimal {
+    override func calculate(by prefixOperator: DecimalPrefixOperator, x: DecimalNumber) -> DecimalNumber {
         let value = x.value
         
         switch prefixOperator {
         case .unaryMinus:
-            return Decimal(-value)
+            return DecimalNumber(-value)
         }
     }
     
-    override func calculate(lhs: Decimal, by infixOperator: DecimalInfixOperator, rhs: Decimal) -> Decimal {
+    override func calculate(lhs: DecimalNumber, by infixOperator: DecimalInfixOperator, rhs: DecimalNumber) -> DecimalNumber {
         let leftValue = lhs.value
         let rightValue = rhs.value
         
         switch infixOperator {
         case .multifly:
-            return Decimal(leftValue * rightValue)
+            return DecimalNumber(leftValue * rightValue)
         case .divide:
-            return Decimal(leftValue / rightValue)
+            return DecimalNumber(leftValue / rightValue)
         case .add:
-            return Decimal(leftValue + rightValue)
+            return DecimalNumber(leftValue + rightValue)
         case .subtract:
-            return Decimal(leftValue - rightValue)
+            return DecimalNumber(leftValue - rightValue)
         }
     }
 }
 
-class BinaryCalculator: Calculator<Binary, BinaryInfixOpeartor, BinaryPrefixOperator> {
+class BinaryCalculator: Calculator<BinaryNumber, BinaryInfixOpeartor, BinaryPrefixOperator> {
     static let shared = BinaryCalculator()
     
-    override func calculate(by prefixOperator: BinaryPrefixOperator, x: Binary) -> Binary {
+    override func calculate(by prefixOperator: BinaryPrefixOperator, x: BinaryNumber) -> BinaryNumber {
         let value = x.value
         
         switch prefixOperator {
         case .bitwiseNOT:
-            return Binary(~value)
+            return BinaryNumber(~value)
         case .unaryMinus:
-            return Binary(-value)
+            return BinaryNumber(-value)
         }
     }
     
-    override func calculate(lhs: Binary, by infixOperator: BinaryInfixOpeartor, rhs: Binary) -> Binary {
+    override func calculate(lhs: BinaryNumber, by infixOperator: BinaryInfixOpeartor, rhs: BinaryNumber) -> BinaryNumber {
         let leftValue = lhs.value
         let rightValue = rhs.value
         
         switch infixOperator {
         case .bitwiseLeftShift:
-            return Binary(leftValue << rightValue)
+            return BinaryNumber(leftValue << rightValue)
         case .bitwiseRightShift:
-            return Binary(leftValue >> rightValue)
+            return BinaryNumber(leftValue >> rightValue)
         case .bitwiseAND:
-            return Binary(leftValue & rightValue)
+            return BinaryNumber(leftValue & rightValue)
         case .bitwiseNAND:
-            return Binary(~leftValue | ~rightValue)
+            return BinaryNumber(~leftValue | ~rightValue)
         case .add:
-            return Binary(leftValue + rightValue)
+            return BinaryNumber(leftValue + rightValue)
         case .subtract:
-            return Binary(leftValue - rightValue)
+            return BinaryNumber(leftValue - rightValue)
         case .bitwiseOR:
-            return Binary(leftValue | rightValue)
+            return BinaryNumber(leftValue | rightValue)
         case .bitwiseNOR:
-            return Binary(~leftValue & ~rightValue)
+            return BinaryNumber(~leftValue & ~rightValue)
         case .bitwiseXOR:
-            return Binary(leftValue ^ rightValue)
+            return BinaryNumber(leftValue ^ rightValue)
         }
     }
 }

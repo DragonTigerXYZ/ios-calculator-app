@@ -11,29 +11,46 @@
 		02C3A8212610125700826863 /* CalculatingElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C3A8202610125700826863 /* CalculatingElement.swift */; };
 		02C3A8242610145100826863 /* Operand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C3A8232610145100826863 /* Operand.swift */; };
 		02C3A828261014F500826863 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C3A827261014F500826863 /* Constant.swift */; };
-		02C3A83526101EE800826863 /* Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C3A83426101EE800826863 /* Binary.swift */; };
+		02C3A83526101EE800826863 /* BinaryNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C3A83426101EE800826863 /* BinaryNumber.swift */; };
 		02C3A83826101F1C00826863 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C3A83726101F1C00826863 /* Calculator.swift */; };
 		02F9154A2612BC1000767989 /* InfixOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F915492612BC1000767989 /* InfixOperator.swift */; };
 		02F9154D2612BC1700767989 /* PrefixOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9154C2612BC1700767989 /* PrefixOperator.swift */; };
-		02F9155C2612D07100767989 /* Decimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9155B2612D07100767989 /* Decimal.swift */; };
+		02F9155C2612D07100767989 /* DecimalNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9155B2612D07100767989 /* DecimalNumber.swift */; };
 		C713D9422570E5EB001C3AFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C713D9412570E5EB001C3AFC /* AppDelegate.swift */; };
 		C713D9442570E5EB001C3AFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C713D9432570E5EB001C3AFC /* SceneDelegate.swift */; };
 		C713D9462570E5EB001C3AFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C713D9452570E5EB001C3AFC /* ViewController.swift */; };
 		C713D9492570E5EB001C3AFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C713D9472570E5EB001C3AFC /* Main.storyboard */; };
 		C713D94B2570E5ED001C3AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C713D94A2570E5ED001C3AFC /* Assets.xcassets */; };
 		C713D94E2570E5ED001C3AFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C713D94C2570E5ED001C3AFC /* LaunchScreen.storyboard */; };
+		E2CF1FCB2615E4CA003C5A30 /* DecimalCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF1F832615B511003C5A30 /* DecimalCalculatorTests.swift */; };
+		E2CF1FCC2615E4CA003C5A30 /* BinaryCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF1FBC2615BEC6003C5A30 /* BinaryCalculatorTests.swift */; };
+		E2CF1FD02615E5D6003C5A30 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF1FCF2615E5D6003C5A30 /* StackTests.swift */; };
+		E2CF1FDA2615E643003C5A30 /* InfixOperatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF1FD92615E643003C5A30 /* InfixOperatorTests.swift */; };
+		E2CF1FDE2615E655003C5A30 /* PrefixOperatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF1FDD2615E655003C5A30 /* PrefixOperatorTests.swift */; };
+		E2CF1FE22615E682003C5A30 /* BinaryNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF1FE12615E682003C5A30 /* BinaryNumberTests.swift */; };
+		E2CF1FE62615E691003C5A30 /* DecimalNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF1FE52615E691003C5A30 /* DecimalNumberTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2CF1F862615B511003C5A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C713D9362570E5EB001C3AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C713D93D2570E5EB001C3AFC;
+			remoteInfo = Calculator;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02C3A8192610110E00826863 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		02C3A8202610125700826863 /* CalculatingElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatingElement.swift; sourceTree = "<group>"; };
 		02C3A8232610145100826863 /* Operand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operand.swift; sourceTree = "<group>"; };
 		02C3A827261014F500826863 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		02C3A83426101EE800826863 /* Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary.swift; sourceTree = "<group>"; };
+		02C3A83426101EE800826863 /* BinaryNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryNumber.swift; sourceTree = "<group>"; };
 		02C3A83726101F1C00826863 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		02F915492612BC1000767989 /* InfixOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfixOperator.swift; sourceTree = "<group>"; };
 		02F9154C2612BC1700767989 /* PrefixOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixOperator.swift; sourceTree = "<group>"; };
-		02F9155B2612D07100767989 /* Decimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decimal.swift; sourceTree = "<group>"; };
+		02F9155B2612D07100767989 /* DecimalNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalNumber.swift; sourceTree = "<group>"; };
 		C713D93E2570E5EB001C3AFC /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C713D9412570E5EB001C3AFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C713D9432570E5EB001C3AFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +59,26 @@
 		C713D94A2570E5ED001C3AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C713D94D2570E5ED001C3AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C713D94F2570E5ED001C3AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2CF1F812615B511003C5A30 /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CF1F832615B511003C5A30 /* DecimalCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalCalculatorTests.swift; sourceTree = "<group>"; };
+		E2CF1F852615B511003C5A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2CF1FBC2615BEC6003C5A30 /* BinaryCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCalculatorTests.swift; sourceTree = "<group>"; };
+		E2CF1FCF2615E5D6003C5A30 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
+		E2CF1FD92615E643003C5A30 /* InfixOperatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfixOperatorTests.swift; sourceTree = "<group>"; };
+		E2CF1FDD2615E655003C5A30 /* PrefixOperatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixOperatorTests.swift; sourceTree = "<group>"; };
+		E2CF1FE12615E682003C5A30 /* BinaryNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryNumberTests.swift; sourceTree = "<group>"; };
+		E2CF1FE52615E691003C5A30 /* DecimalNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalNumberTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C713D93B2570E5EB001C3AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CF1F7E2615B511003C5A30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,8 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				02C3A8232610145100826863 /* Operand.swift */,
-				02C3A83426101EE800826863 /* Binary.swift */,
-				02F9155B2612D07100767989 /* Decimal.swift */,
+				02C3A83426101EE800826863 /* BinaryNumber.swift */,
+				02F9155B2612D07100767989 /* DecimalNumber.swift */,
 			);
 			path = Operand;
 			sourceTree = "<group>";
@@ -91,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				C713D9402570E5EB001C3AFC /* Calculator */,
+				E2CF1F822615B511003C5A30 /* CalculatorTests */,
 				C713D93F2570E5EB001C3AFC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				C713D93E2570E5EB001C3AFC /* Calculator.app */,
+				E2CF1F812615B511003C5A30 /* CalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +151,21 @@
 				C713D94F2570E5ED001C3AFC /* Info.plist */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		E2CF1F822615B511003C5A30 /* CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF1F832615B511003C5A30 /* DecimalCalculatorTests.swift */,
+				E2CF1FBC2615BEC6003C5A30 /* BinaryCalculatorTests.swift */,
+				E2CF1FCF2615E5D6003C5A30 /* StackTests.swift */,
+				E2CF1FD92615E643003C5A30 /* InfixOperatorTests.swift */,
+				E2CF1FDD2615E655003C5A30 /* PrefixOperatorTests.swift */,
+				E2CF1FE12615E682003C5A30 /* BinaryNumberTests.swift */,
+				E2CF1FE52615E691003C5A30 /* DecimalNumberTests.swift */,
+				E2CF1F852615B511003C5A30 /* Info.plist */,
+			);
+			path = CalculatorTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,17 +188,39 @@
 			productReference = C713D93E2570E5EB001C3AFC /* Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E2CF1F802615B511003C5A30 /* CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2CF1F8A2615B511003C5A30 /* Build configuration list for PBXNativeTarget "CalculatorTests" */;
+			buildPhases = (
+				E2CF1F7D2615B511003C5A30 /* Sources */,
+				E2CF1F7E2615B511003C5A30 /* Frameworks */,
+				E2CF1F7F2615B511003C5A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2CF1F872615B511003C5A30 /* PBXTargetDependency */,
+			);
+			name = CalculatorTests;
+			productName = CalculatorTests;
+			productReference = E2CF1F812615B511003C5A30 /* CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		C713D9362570E5EB001C3AFC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1210;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					C713D93D2570E5EB001C3AFC = {
 						CreatedOnToolsVersion = 12.1;
+					};
+					E2CF1F802615B511003C5A30 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C713D93D2570E5EB001C3AFC;
 					};
 				};
 			};
@@ -166,6 +238,7 @@
 			projectRoot = "";
 			targets = (
 				C713D93D2570E5EB001C3AFC /* Calculator */,
+				E2CF1F802615B511003C5A30 /* CalculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +254,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2CF1F7F2615B511003C5A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -190,10 +270,10 @@
 			files = (
 				02F9154A2612BC1000767989 /* InfixOperator.swift in Sources */,
 				02C3A81A2610110E00826863 /* Stack.swift in Sources */,
-				02C3A83526101EE800826863 /* Binary.swift in Sources */,
+				02C3A83526101EE800826863 /* BinaryNumber.swift in Sources */,
 				C713D9462570E5EB001C3AFC /* ViewController.swift in Sources */,
 				02C3A83826101F1C00826863 /* Calculator.swift in Sources */,
-				02F9155C2612D07100767989 /* Decimal.swift in Sources */,
+				02F9155C2612D07100767989 /* DecimalNumber.swift in Sources */,
 				02F9154D2612BC1700767989 /* PrefixOperator.swift in Sources */,
 				02C3A8212610125700826863 /* CalculatingElement.swift in Sources */,
 				02C3A828261014F500826863 /* Constant.swift in Sources */,
@@ -203,7 +283,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2CF1F7D2615B511003C5A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CF1FDA2615E643003C5A30 /* InfixOperatorTests.swift in Sources */,
+				E2CF1FDE2615E655003C5A30 /* PrefixOperatorTests.swift in Sources */,
+				E2CF1FE62615E691003C5A30 /* DecimalNumberTests.swift in Sources */,
+				E2CF1FE22615E682003C5A30 /* BinaryNumberTests.swift in Sources */,
+				E2CF1FCB2615E4CA003C5A30 /* DecimalCalculatorTests.swift in Sources */,
+				E2CF1FCC2615E4CA003C5A30 /* BinaryCalculatorTests.swift in Sources */,
+				E2CF1FD02615E5D6003C5A30 /* StackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2CF1F872615B511003C5A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C713D93D2570E5EB001C3AFC /* Calculator */;
+			targetProxy = E2CF1F862615B511003C5A30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C713D9472570E5EB001C3AFC /* Main.storyboard */ = {
@@ -377,6 +479,46 @@
 			};
 			name = Release;
 		};
+		E2CF1F882615B511003C5A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.yagom.CalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator.app/Calculator";
+			};
+			name = Debug;
+		};
+		E2CF1F892615B511003C5A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.yagom.CalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator.app/Calculator";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -394,6 +536,15 @@
 			buildConfigurations = (
 				C713D9532570E5ED001C3AFC /* Debug */,
 				C713D9542570E5ED001C3AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CF1F8A2615B511003C5A30 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CF1F882615B511003C5A30 /* Debug */,
+				E2CF1F892615B511003C5A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
