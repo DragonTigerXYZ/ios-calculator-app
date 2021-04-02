@@ -33,10 +33,17 @@ struct DecimalNumber: Operand {
     
     init(_ value: Double) {
         var formattedValue: Double = value.truncatingRemainder(dividingBy: Double(Self.max) + 1)
-        let count: Int = Constant.maxDigitCount - String(Int(formattedValue)).count
+        var count: Int
+        
+        if value > 0 {
+            count = Constant.maxDigitCount - String(Int(formattedValue)).count
+        } else {
+            count = Constant.maxDigitCount - (String(Int(formattedValue)).count - 1)
+        }
+        
         formattedValue = round(formattedValue * pow(10, Double(count))) / pow(10, Double(count))
         
-        self.value = formattedValue
-        self.text = formattedValue.truncatingRemainder(dividingBy: 1.0) == 0.0 ? String(Int(self.value)) : String(self.value)
+        self.value = formattedValue.truncatingRemainder(dividingBy: Double(Self.max) + 1)
+        self.text = self.value.truncatingRemainder(dividingBy: 1.0) == 0.0 ? String(Int(self.value)) : String(self.value)
     }
 }
