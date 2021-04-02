@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol Operand: CalculatingElement, CustomStringConvertible {
+protocol Operand: CalculatingElement, CustomStringConvertible, Equatable {
     associatedtype ValueType
     
     var value: ValueType { get }

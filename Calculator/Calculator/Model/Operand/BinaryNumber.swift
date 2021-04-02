@@ -1,5 +1,5 @@
 //
-//  Binary.swift
+//  BinaryNumber.swift
 //  Calculator
 //
 //  Created by 덕복 on 2021/03/26.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Binary: Operand {
+struct BinaryNumber: Operand {
     typealias ValueType = Int
     
     private(set) var value: ValueType
@@ -30,7 +30,7 @@ struct Binary: Operand {
         }
         
         self.value = value
-        self.text = text
+        self.text = (self.value < 0) ? text : String(self.value, radix: 2)
     }
     
     init(_ value: Int) {
