@@ -26,7 +26,6 @@
 		E2CF1FCC2615E4CA003C5A30 /* BinaryCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF1FBC2615BEC6003C5A30 /* BinaryCalculatorTests.swift */; };
 		E2CF1FD02615E5D6003C5A30 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF1FCF2615E5D6003C5A30 /* StackTests.swift */; };
 		E2CF1FDA2615E643003C5A30 /* InfixOperatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF1FD92615E643003C5A30 /* InfixOperatorTests.swift */; };
-		E2CF1FDE2615E655003C5A30 /* PrefixOperatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF1FDD2615E655003C5A30 /* PrefixOperatorTests.swift */; };
 		E2CF1FE22615E682003C5A30 /* BinaryNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF1FE12615E682003C5A30 /* BinaryNumberTests.swift */; };
 		E2CF1FE62615E691003C5A30 /* DecimalNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF1FE52615E691003C5A30 /* DecimalNumberTests.swift */; };
 /* End PBXBuildFile section */
@@ -65,7 +64,6 @@
 		E2CF1FBC2615BEC6003C5A30 /* BinaryCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCalculatorTests.swift; sourceTree = "<group>"; };
 		E2CF1FCF2615E5D6003C5A30 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
 		E2CF1FD92615E643003C5A30 /* InfixOperatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfixOperatorTests.swift; sourceTree = "<group>"; };
-		E2CF1FDD2615E655003C5A30 /* PrefixOperatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixOperatorTests.swift; sourceTree = "<group>"; };
 		E2CF1FE12615E682003C5A30 /* BinaryNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryNumberTests.swift; sourceTree = "<group>"; };
 		E2CF1FE52615E691003C5A30 /* DecimalNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalNumberTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,7 +158,6 @@
 				E2CF1FBC2615BEC6003C5A30 /* BinaryCalculatorTests.swift */,
 				E2CF1FCF2615E5D6003C5A30 /* StackTests.swift */,
 				E2CF1FD92615E643003C5A30 /* InfixOperatorTests.swift */,
-				E2CF1FDD2615E655003C5A30 /* PrefixOperatorTests.swift */,
 				E2CF1FE12615E682003C5A30 /* BinaryNumberTests.swift */,
 				E2CF1FE52615E691003C5A30 /* DecimalNumberTests.swift */,
 				E2CF1F852615B511003C5A30 /* Info.plist */,
@@ -288,7 +285,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2CF1FDA2615E643003C5A30 /* InfixOperatorTests.swift in Sources */,
-				E2CF1FDE2615E655003C5A30 /* PrefixOperatorTests.swift in Sources */,
 				E2CF1FE62615E691003C5A30 /* DecimalNumberTests.swift in Sources */,
 				E2CF1FE22615E682003C5A30 /* BinaryNumberTests.swift in Sources */,
 				E2CF1FCB2615E4CA003C5A30 /* DecimalCalculatorTests.swift in Sources */,
