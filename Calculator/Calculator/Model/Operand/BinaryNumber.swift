@@ -30,7 +30,7 @@ struct BinaryNumber: Operand {
         }
         
         self.value = value
-        self.text = text
+        self.text = (self.value < 0) ? text : String(self.value, radix: 2)
     }
     
     init(_ value: Int) {
